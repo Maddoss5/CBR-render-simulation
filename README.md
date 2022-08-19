@@ -6,7 +6,7 @@ Original image
 
 
 # Basic understanding
-In checkerboard rendering we render every alternate pixel and leave the other one blank or with some random color .Using CBR we reduce the load on graphical processing unit as we basically half the number of pixels to be rendered .
+In checkerboard rendering we render every alternate pixel and leave the other one blank or with some random color .Using CBR we reduce the load on graphical processing unit as we basically half the number of pixels to be rendered . CBR render can be godsend for people with lower end computers and still manage to run application with high graphic processing 
 
 In my experiment when i colored the alternate pixel with black this was the result -
 ![FirstCBR](https://user-images.githubusercontent.com/111579172/185630556-e5c68332-5827-4c15-b848-2ae7b5affd93.jpg)
@@ -21,6 +21,7 @@ CBR render ![FinalCBR](https://user-images.githubusercontent.com/111579172/18563
 
 # Problem arising with CBR 
 Although from a far distance the two images look near identical , from closer inspection we can see CBR versoin has much more noise than the original image . One such example is posted here 
+
 Original image -![original image better details](https://user-images.githubusercontent.com/111579172/185631380-2d1ed843-6df7-4b16-ad78-db45edb04570.png)
 CBR version- ![CBR version messy details](https://user-images.githubusercontent.com/111579172/185631412-677a828c-accc-4469-a184-82d1d2ec039a.png)
 
